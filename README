@@ -1,0 +1,5 @@
+D20 Dice Roller
+
+A short and simple Python Command Line script, made as a beginner Python project, which allows the user to roll one of the d20 System dice. 
+Useful for various tabletop RPG's such as Dungeons & Dragons. 
+Select the die you want to roll, the number of times you want to roll it, and that's it. Enjoy!
