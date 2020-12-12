@@ -16,7 +16,9 @@ def roll():
         y = int(input("Which die do you want to roll? "))
         x = int(input("How many dice do you want to roll? You can choose any number: "))
         if y in dice:
-            print(list(xdy(x, y)))
+            rolldice = list(xdy(x, y))
+            print(rolldice)
+            print("The sum of your roll is", (sum(rolldice)))
             break
         else:
             print("Please choose the correct type of die.")
